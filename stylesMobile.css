@@ -1,6 +1,6 @@
 /*Media Query for adaptability*/
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .mainContainer {
         margin: 0;
         
@@ -68,3 +68,4 @@
     }
 
 }
+
