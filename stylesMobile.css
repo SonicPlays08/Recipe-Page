@@ -1,0 +1,69 @@
+/*Media Query for adaptability*/
+
+@media (max-width: 500px){
+    .mainContainer {
+        margin: 0;
+        
+    }
+    
+      
+    
+    
+    .areaContainer {
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 1rem
+        
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .itemContainer {
+        padding: 0 6rem;
+    }
+    .highLight {
+        margin: 0 5rem;
+        padding: 2rem 2rem
+    }
+
+    
+    
+    footer {
+        background-color: #ffe5c0;
+        font-size: 1.5rem
+    }
+
+    .itemContainer h1  {
+        font-size: 3rem
+    }
+
+    .itemContainer h2  {
+        font-size: 2rem
+    }
+
+    .itemContainer p {
+        font-size: 1.5rem
+    }
+
+    .itemContainer span {
+        font-size: 1.5rem
+    }
+
+    .itemContainer li {
+        font-size: 1.5rem;
+        line-height: 1.5
+    }
+
+    .list .smallDisc {
+        font-size: 1.2rem;
+    }    
+
+    td {
+        font-size: 1.5rem
+    }
+}
