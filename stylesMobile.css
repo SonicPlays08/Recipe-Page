@@ -1,71 +1,58 @@
-/*Media Query for adaptability*/
-
-@media (max-width: 800px){
+@media (max-width: 600px){
     .mainContainer {
+        padding: 0;
         margin: 0;
+        background-color: white
         
     }
-    
-      
-    
-    
-    .areaContainer {
-        margin: 0;
-        border-radius: 0;
+    .areaContainer{
         padding: 0;
+        margin: 0;
         width: 100%;
         height: 100%;
-        padding-bottom: 1rem
-        
+               
+       
     }
 
     img {
+        width:100%;
+        height: 100%;
         border-radius: 0;
+        
     }
 
     .itemContainer {
-        padding: 0 6rem;
+        padding-left:2.5rem;
+        padding-right: 2.5rem;
     }
+
+    .itemContainer h2 {
+        font-size: 2rem;
+    } 
+
+    .itemContainer h1 {
+        font-size: 3.1rem
+    }
+
+    .itemContainer p, td, span {
+        font-size: 1.1rem
+    }
+
     .highLight {
-        margin: 0 5rem;
-        padding: 2rem 2rem
+        margin: 2.5rem;
+        padding: 2.5rem;
     }
 
-    
-    
+    .itemContainer .smallDisc {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
     footer {
-        background-color: #ffe5c0;
-        font-size: 1.5rem
+        font-size: 1.1rem;
+        padding: 1rem;
+        background-color: #ffe5c0 
     }
-
-    .itemContainer h1  {
-        font-size: 3rem
-    }
-
-    .itemContainer h2  {
-        font-size: 2rem
-    }
-
-    .itemContainer p {
-        font-size: 1.5rem
-    }
-
-    .itemContainer span {
-        font-size: 1.5rem
-    }
-
-    .itemContainer li {
-        font-size: 1.5rem;
-        line-height: 1.5
-    }
-
-    .list .smallDisc {
-        font-size: 1.2rem;
-    }    
-
-    td {
-        font-size: 1.5rem
-    }
-
-}
-
+}    
+    
+  
